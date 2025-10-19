@@ -1,0 +1,78 @@
+# === Python / FastAPI backend ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.log
+
+# Virtualenv
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment / config
+.env
+.env.*
+*.env.local
+*.ini
+*.cfg
+*.toml
+
+# VSCode / IDE
+.vscode/
+.idea/
+*.iml
+
+# Cache / temp
+*.db
+*.sqlite3
+*.DS_Store
+*.bak
+*.swp
+.cache/
+.mypy_cache/
+.pytest_cache/
+__pycache__/
+
+# PDFs / test uploads
+uploads/
+*.pdf
+*.tmp
+
+# === Node / Vite frontend ===
+node_modules/
+dist/
+build/
+.npm/
+.pnp/
+.pnp.js
+.DS_Store
+*.log
+*.lock
+
+# Environment and local configs
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Vite / React output
+.vite/
+coverage/
+*.tsbuildinfo
+
+# === OS junk ===
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
